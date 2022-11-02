@@ -1,0 +1,46 @@
+.contant-block__info {
+    width: 100%;
+    overflow: hidden;
+
+    margin: 20px 0 15px 13px;
+    
+}
+
+.contant-block__items {
+    display: flex;
+    gap: 20px;
+}
+
+.revers_items {
+    flex-direction: row-reverse;
+}
+
+.contant-block__items img {
+    border-radius: 15px;
+}
+
+.revers_items img {
+    margin-right: 15px;
+}
+
+.contant-block__item_left {
+    margin-right: 15px;
+    display: block;
+}
+
+.contant-block__item_left p {
+    width: 100%;
+
+    padding-right: 15px;
+    font-family: 'Courier Prime', monospace;
+    letter-spacing: 0;
+
+    font-size: 17px;
+    text-align: justify;
+    
+}
+.contant-block__btn-about {
+    margin-top: 2px;
+
+    float: right;
+}

@@ -1,0 +1,29 @@
+@import url('./blocks/title-head/title-head__name.css');
+@import url('./blocks/title-head/title-head__button/title-head__button.css');
+@import url('./blocks/main-contant/contant-block/contant-block__title/__title.css');
+@import url('./blocks/main-contant/main-contant.css');
+@import url('./blocks/main-contant/contant-block/contant-block.css');
+@import url('./blocks/main-contant/contant-block/contant-block__info/__info.css');
+@import url('./blocks/main-contant/contant-block/contant-block__footer/__footer.css');
+@import url('./blocks/main-contant/contant-block/contant-block__info/contant-block__btn-about/__btn-about.css');
+@import url('./blocks/navbar-footer/navbar-footer.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1500px;
+
+    display: block;
+    font-family: 'Courier Prime', monospace;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+
+    /* background-color: antiquewhite; */
+
+}

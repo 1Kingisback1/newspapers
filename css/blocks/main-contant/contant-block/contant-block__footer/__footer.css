@@ -1,0 +1,30 @@
+.contant-block__footer {
+    width: 100%;
+
+    display: flex;
+
+    gap: 10px;
+    margin-left: 14px;
+}
+
+.revers_footer {
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.contant-block__footer p {
+    font-weight: 700;
+
+    opacity: .5;
+}
+
+.contant-block__footer a {
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease;
+}
+
+.contant-block__footer a:hover {
+    text-decoration: underline;
+}

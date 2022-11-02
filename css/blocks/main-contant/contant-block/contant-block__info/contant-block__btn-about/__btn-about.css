@@ -1,0 +1,136 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%; /* Full width */
+    overflow: auto;/* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: #faebd7;
+    margin: auto;
+    margin-bottom: 150px;
+    padding: 0;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 0 8px 20px #faebd7;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.close {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -5%;
+    right: -7%;
+
+    color: black;
+    background-color: #faebd7;
+    
+    border-radius: 50%;
+    text-align: center;
+    
+
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeTwo,
+.closeThree {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -3%;
+    right: -7%;
+
+    color: black;
+    background-color: #faebd7;
+    
+    border-radius: 50%;
+    text-align: center;
+    
+
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.closeTwo:hover,
+.closeTwo:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeThree:hover,
+.closeThree:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background: #faebd7;
+    
+    border-radius: 10px;
+}
+
+.modal-body {
+    padding: 10px 20px;
+    font-family: 'Courier Prime', monospace;
+    letter-spacing: 0;
+
+    font-size: 17px;
+    text-align: justify;
+}
+
+.btn-about {
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 3px 6px;
+    border-radius: 10px;
+
+    background-color: white;
+    transition: all .4s ease-out;
+    cursor: pointer;
+}
+
+.btn-about:hover {
+    background-color: #000;
+    color: white;
+}

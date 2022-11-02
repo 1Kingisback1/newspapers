@@ -1,0 +1,13 @@
+.contant-block__title {
+    text-align: left;
+}
+
+.contant-block__title h3 {
+    font-size: 25px;
+
+    margin: 5px 0 0 15px;
+}
+
+.revers_title {
+    text-align: right;
+}

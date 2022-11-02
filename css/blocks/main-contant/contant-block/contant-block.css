@@ -1,0 +1,16 @@
+.contant-block {
+    width: 80%;
+
+    padding: 7px;
+    margin-bottom: 100px;
+    font-family: inherit;
+
+    display: block;
+    border-radius: 10px;
+
+    background: #faebd7;
+
+    box-shadow: 0 0 16px 18px #faebd7;
+
+}
+
