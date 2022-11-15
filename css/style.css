@@ -14,14 +14,37 @@
 }
 
 body {
-    max-width: 1500px;
+   
 
     display: block;
+    object-fit: cover;
     font-family: 'Courier Prime', monospace;
     font-size: 15px;
 }
+/* @media (max-width:1190px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media (max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (max-width:760px) {
+    .container {
+        max-width: 760px;
+    }
+}
+
+@media (max-width: 470px) {
+    .container {
+        max-width: none;
+    }
+} */
 
 .container {
+    max-width: 1520px;
     width: 100%;
 
     /* background-color: antiquewhite; */
